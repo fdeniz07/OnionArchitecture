@@ -8,11 +8,11 @@ namespace ProductApp.Persistence
 {
     public static  class ServiceRegistration
     {
-        public static void AddPersistenceServices(this IServiceCollection serviceCollection)
+        public static void AddPersistenceServices(this IServiceCollection services)
         {
-            serviceCollection.AddDbContext<ApplicationDbContext>(opt=>opt.UseInMemoryDatabase("memoryDb"));
+            services.AddDbContext<ApplicationDbContext>(opt=>opt.UseInMemoryDatabase("memoryDb"));
 
-            serviceCollection.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
         }
     }
 }

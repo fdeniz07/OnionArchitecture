@@ -26,9 +26,9 @@ namespace ProductApp.Persistence.Repositories
            return await _dbContext.Set<T>().ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(Guid Id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
-            return await _dbContext.Set<T>().FindAsync(Id);
+            return await _dbContext.Set<T>().FindAsync(id);
         }
     }
 }

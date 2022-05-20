@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductApp.Application.Dto
+namespace ProductApp.Application.Dtos
 {
     public class ProductViewDto
     {

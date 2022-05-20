@@ -9,9 +9,5 @@
             Value = value;
         }
 
-        public ServiceResponse()
-        {
-            
-        }
     }
 }
