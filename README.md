@@ -1,6 +1,6 @@
 # OnionArchitecture
 ## An Example : 
-### ASP.NET CORE 6 API + Onion Architecture + CQRS + MediatR + Entity Framework + IMapper
+### ASP.NET CORE 6 API + Onion Architecture + CQRS + MediatR + Entity Framework + IMapper + InMemory
 
 
 
